@@ -1,0 +1,43 @@
+.Items_wrapper{
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.item{
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 7px rgba(0, 0, 0, 0.02);
+    width: 251px;
+    padding: 15px;
+    margin: 10px;
+}
+.product_img{
+    height: 150px;
+    border-radius: 10px;
+    width: 200px;
+}
+.product_name{
+    margin-bottom: 0px !important;
+    color: #000;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 27px;
+}
+.ratings_and_reviews{
+    margin-bottom: 0px !important;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 24px;
+    width: fit-content;
+    color: #323232;
+    background: rgba(0, 146, 218, 0.11);
+    border-radius: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+.add_to_cart{
+
+}

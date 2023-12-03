@@ -1,0 +1,70 @@
+.login_container{
+    background-image: url('./laptop-shopping-bags-online-shopping-concept.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.login_form input{
+    color: #1C1C1C;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 16px;
+    background: rgba(240, 237, 255, 0.80);
+    padding: 16px;
+    border: none;
+    outline: none;
+    height: 48px;
+}
+.login_wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    height: 100vh;
+}
+.submit_form{
+    border-radius: 16px !important;
+    background: linear-gradient(100deg, #9181F4 -5.85%, #5038ED 109.55%) !important;
+    box-shadow: 0px 8px 21px 0px rgba(0, 0, 0, 0.16) !important;
+}
+.login_form{
+    border-radius: 24px;
+    background: #FFF;
+    padding: 50px;
+    width: 40%;
+}
+.login_form h2{
+    margin-bottom: 30px;
+}
+.submit_form{
+    width:auto !important;
+    padding-inline:50px !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+}
+    
+  /* Style for form elements */
+  .login_form input[type="text"],
+  .login_form input[type="password"],
+  .login_form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .login_form input[type="submit"] {
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .login_form input[type="submit"]:hover {
+    background-color: #45a049;
+  }

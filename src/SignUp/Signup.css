@@ -1,0 +1,48 @@
+/* Overall container */
+.signup_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+  }
+  
+  /* Wrapper for form */
+  .signup_wrapper {
+    width: 70%;
+    margin: 0 auto;
+  }
+  
+  /* Style for signup form */
+  .signup_form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style for form elements */
+  .signup_form input[type="text"],
+  .signup_form input[type="email"],
+  .signup_form input[type="tel"],
+  .signup_form input[type="password"],
+  .signup_form input[type="submit"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .signup_form input[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .signup_form input[type="submit"]:hover {
+    background-color: #45a049;
+  }

@@ -1,0 +1,16 @@
+.hero_section_wrapper .slider_img{
+    height: 400px;
+}
+.hero_section_wrapper{
+    background-color: #f0e0ff;
+    padding-top: 50px;
+}
+.hero_section_wrapper .slider_content{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+}
+.hero_section_wrapper .slider_content .carousel-caption{
+    position: static;
+}

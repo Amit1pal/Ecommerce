@@ -1,0 +1,57 @@
+.Enquiry_wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Enquiry_container{
+    background-image: url('./enquiry_background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.Enquiry_mail_box,.Enquiry_data{
+    width: 50%;
+}
+
+.Enquiry_mail_box{
+    background-image: url('./Enquiry_ing.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.Enquiry_data {
+    font-family: Arial, sans-serif;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .Enquiry_data form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .Enquiry_data input[type='text'],
+  .Enquiry_data input[type='email'],
+  .Enquiry_data input[type='tel'],
+  .Enquiry_data textarea {
+    margin-bottom: 15px;
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .Enquiry_data input[type='submit'] {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .Enquiry_data input[type='submit']:hover {
+    background-color: #0056b3;
+  }
